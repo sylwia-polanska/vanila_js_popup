@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 13" width="13" height="13">
+	<title>desktop_wishlist – toplayer</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #db5b59 } 
+	</style>
+	<g id="desktop_wishlist – toplayer">
+		<g id="Group 1071">
+			<g id="Group 417">
+				<path id="close (1)" class="shp0" d="M8 6.88L11.72 3.17C12.13 2.76 12.13 2.1 11.72 1.69L11.22 1.19C10.81 0.78 10.15 0.78 9.74 1.19L6.03 4.9L2.31 1.19C1.9 0.78 1.24 0.78 0.83 1.19L0.33 1.69C-0.08 2.1 -0.08 2.76 0.33 3.17L4.05 6.88L0.33 10.59C-0.08 11 -0.08 11.67 0.33 12.08L0.83 12.57C1.24 12.98 1.9 12.98 2.31 12.57L6.03 8.86L9.74 12.57C10.15 12.98 10.81 12.98 11.22 12.57L11.72 12.08C12.13 11.67 12.13 11 11.72 10.59L8 6.88Z" />
+			</g>
+		</g>
+	</g>
+</svg>

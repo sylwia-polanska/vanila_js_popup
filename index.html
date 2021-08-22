@@ -1,0 +1,62 @@
+<html>
+<head>
+    <link rel='stylesheet' href='assets/style.css'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+</head>
+
+<body>
+
+    <button id='popupButton'>wyświetl</button>
+    <div id='popupOverlay'></div>
+    <div id='productPopup'>
+
+        <div class='leftContainer'>
+            <img src='assets/images/product/1.png' alt="xbox" id='photo'>
+            <div id='galleryNav'>
+                <button onclick='prevPhoto()'>&#60;</button>
+                <button onclick='nextPhoto()'>&#62;</button>
+            </div>
+        </div><!--
+
+        --><div class='rightContainer'>
+            <img src='assets/images/icons/close-in-black.svg' class='closeButton' onclick='onClose()'>
+            <p id='productName'></p>
+            <p id='productPrice'></p>
+            <div id='productSizeVariants'>
+                <p>Rozmiar:</p>
+                <button class='active' onclick='onChangeSize(event)'>Ram 32 GB</button>
+                <button onclick='onChangeSize(event)'>Ram 64 GB</button>
+                <button onclick='onChangeSize(event)'>Ram 128 GB</button>
+            </div>
+            <div>
+                <p>Wariant:</p>
+                <select id="colorVariant"></select>
+            </div>
+            <div id='shipmentContainer'>
+                <div id='availability'></div>
+                <div id='shipment'>
+                    <img src='assets/images/icons/delivery-time-tool.svg'>
+                    <div>
+                        <span>Możemy wysłać już dzisiaj!</span><br>
+                        <a href="#">Sprawdź czas i koszty wysyłki</a>
+                    </div>
+                </div>
+            </div>
+            <div id='addToCartSection'>
+                <div>
+                    <span onclick='decreaseQuantity()'>-</span>
+                    <span id='quantity'>1</span>
+                    <span onclick='increaseQuantity()'>+</span>
+                </div>
+                <button>Dodaj do koszyka</button>
+            </div>
+
+        </div>
+
+
+    </div>
+  
+</body>
+
+</html>
+<script src='assets/script.js'></script>

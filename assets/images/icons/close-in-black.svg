@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" width="17" height="17">
+	<title>desktop_wishlist – toplayer</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #2b2b2b } 
+	</style>
+	<g id="desktop_wishlist – toplayer">
+		<path id="close (1)" class="shp0" d="M10.96 8.45L15.64 3.77C16.16 3.25 16.16 2.41 15.64 1.9L15.01 1.27C14.5 0.75 13.66 0.75 13.14 1.27L8.46 5.95L3.78 1.27C3.26 0.75 2.42 0.75 1.9 1.27L1.28 1.89C0.76 2.41 0.76 3.25 1.28 3.77L5.96 8.45L1.28 13.13C0.76 13.65 0.76 14.48 1.28 15L1.9 15.63C2.42 16.14 3.26 16.14 3.78 15.63L8.46 10.94L13.14 15.63C13.66 16.14 14.5 16.14 15.01 15.63L15.64 15C16.16 14.48 16.16 13.65 15.64 13.13L10.96 8.45Z" />
+	</g>
+</svg>

@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#popupButton{
+    background-color: #0090F6;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+body, button, select{
+    font-size: 12px;
+}
+
+#productPopup{
+    position: fixed;
+    height: 330px;
+    width: 40%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    min-width: 350px;
+    z-index: 2;
+    box-shadow: 1px 6px 15px 1px rgba(0,0,0,0.4);
+    background-color: white;
+    border-radius: 6px;
+    overflow: auto;
+}
+
+.visible{
+    display: block !important;
+}
+
+.visibleInLine{
+    display: inline-block !important;
+}
+
+#popupButton{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.leftContainer{
+    background-color: white;
+    display: inline-block;
+    height: 100%;
+    width: 40%;
+    padding: 3px;
+    box-sizing: border-box;
+    position: relative;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    vertical-align: top;
+}
+
+.leftContainer img{
+    max-width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.rightContainer{
+    background-color: white;
+    height: 100%;
+    width: 60%;
+    display: inline-block;
+    box-sizing: border-box;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 20px 15px;
+}
+
+#popupOverlay{
+    background-color: #00000040;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.closeButton{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    cursor: pointer;
+}
+
+#galleryNav{
+    position: absolute;
+    margin: auto;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#productName{
+    margin-right: 25px;
+    margin-top: 0;
+}
+
+#productSizeVariants .active{
+    border-color: #0090F6;
+}
+
+#productSizeVariants button{
+    background-color: white;
+    border-radius: 4px;
+    padding: 7px 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-color: #C3C7C8;
+    transition: 0.5s all;
+}
+
+#colorVariant{
+    width: 100%;
+    border-radius: 4px;
+    padding: 7px 15px;
+    border-color: #C3C7C8;
+}
+
+#shipmentContainer #shipment{
+    display: none;
+}
+
+#shipmentContainer > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#shipment img, #shipment div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#availability{
+    margin-right: 20px;
+}
+
+.rightContainer p{
+    margin: 10px 0 5px 0;
+}
+
+#galleryNav button{
+    background-color: white;
+    border-color: #C3C7C8;
+    border-radius: 4px;
+}
+
+#productName{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#productPrice{
+    font-weight: bold;
+    color: #0090F6;
+    font-size: 1.3em;
+    margin-top: 5px;
+}
+
+#shipmentContainer{
+    margin-top: 12px;
+}
+
+#shipmentContainer img{
+    margin-right: 5px;
+}
+
+#addToCartSection > div, #addToCartSection button{
+    display: inline-block;
+    vertical-align: top;
+    height: 40px;
+}
+
+#addToCartSection{
+    margin-top: 12px;
+}
+
+#addToCartSection > div{
+    margin-right: 5px;
+    border: 1px solid #C3C7C8;
+    border-radius: 4px;
+    padding: 12px 8px;
+    box-sizing: border-box;
+}
+
+#addToCartSection button{
+    color: white;
+    background-color: #0090F6;
+    border-radius: 4px;
+    border: none;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+#quantity{
+    margin: 0 35px;
+}
+
+.rightContainer a{
+    text-decoration: none;
+    color: #0090F6;
+}
+
+#addToCartSection > div > span:not(#quantity){
+    cursor: pointer;
+    user-select: none;
+}
