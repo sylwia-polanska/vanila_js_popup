@@ -20,17 +20,17 @@ body, button, select{
 #productPopup{
     position: fixed;
     height: 330px;
-    width: 40%;
+    width: 50%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     display: none;
-    min-width: 350px;
+    min-width: 300px;
+    max-width: 650px;
     z-index: 2;
     box-shadow: 1px 6px 15px 1px rgba(0,0,0,0.4);
     background-color: white;
     border-radius: 6px;
-    overflow: auto;
 }
 
 .visible{
@@ -77,6 +77,7 @@ body, button, select{
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     padding: 20px 15px;
+    overflow: auto;
 }
 
 #popupOverlay{
@@ -195,6 +196,7 @@ body, button, select{
     border-radius: 4px;
     padding: 12px 8px;
     box-sizing: border-box;
+    margin-bottom: 5px;
 }
 
 #addToCartSection button{
