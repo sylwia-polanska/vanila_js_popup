@@ -96,7 +96,7 @@ const jsonMockedData = {
 
 }
 
-document.getElementById('popupButton').onclick = function () {
+function openPopup() {
   togglePopup()
   displayProduct()
 }
